@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root {
-    --primary: #FF9950; ;
+    --primary: #5cff50; ;
     --primary-hover: #CD7D7C;                
     --secondary: #EFD0F8;
     --secondary-hover: #B8A1D9;
@@ -134,4 +133,12 @@
         flex-direction: column;
         animation: fade 1s ease-in 1 forwards;
     }
+}
+
+/*codigo pagina principal*/
+.f1_silueta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
