@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root {
@@ -136,9 +137,22 @@
 }
 
 /*codigo pagina principal*/
-.f1_silueta {
+.f1_silueta{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+/* Estilos generales para pantallas pequeñas */
+@media (max-width: 600px) {
+    
+
+    .f1_silueta {
+        width: 90%; /* Ajusta el tamaño de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+}
+
+
