@@ -176,7 +176,7 @@ a{
 
 
 footer {
-    background-color: #06405190;
+    background-color: #261E5A;
     
     padding: 20px 0;
     position: absolute;
@@ -209,8 +209,8 @@ footer {
     padding: 0;
     list-style: none;
 }
-.footer-section a {
-    color: #fff;
+.footer-section a, p, h5, label{
+    color: #fcfcfc;
     text-decoration: none;
 }
 .footer-section a:hover {
@@ -219,7 +219,7 @@ footer {
 .footer-bottom {
     text-align: center;
     padding: 10px 20px;
-    background-color: #222;
+    background-color: #797979;
 }
 @media (max-width: 768px) {
     .footer-container {
